@@ -83,6 +83,12 @@ header{
 	z-index: 1;
 }
 
+.activo{
+	color: white;
+	background-color: black;
+	padding: 5px 5px 6px 5px; 
+}
+
 /*#mensajecompleto{
 	position: absolute;
 	margin-right:-10px;

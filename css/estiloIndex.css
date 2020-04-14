@@ -5,14 +5,43 @@
 }
 .contenedor-bienvenido, .contenedor-ingresar{
     width: 20em;
-    background-color: cornsilk;
+    margin-top: 15px;
+    background-color: white;
 }
 
+/*_______________________________________________*/
+/* SECCION DE CONTENEDOR BIENVENIDO*/
 .bienvenido{
-    border-style: solid;
-    border-bottom-width: 2px;
+    border-style: ridge;
+    font-family: 'Roboto', sans-serif;
+    color: #FF6600;
+    font-size: 22px;
+    padding-bottom: 5px;
+    border-bottom-width: 1px;
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
-    border-bottom-color: grey;
+    border-bottom-color: rgb(250, 233, 233);
 }
+
+.consulte{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
+/*_______________________________________________*/
+/* SECCION DE CONTENEDOR INGRESAR*/
+.contenedor-ingresar h2{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: #FF6600;
+    font-size: 22px;
+}
+
+.contenedor-ingresar span{
+    margin-left: 5px;
+    color: rgb(163, 161, 161);
+}
+

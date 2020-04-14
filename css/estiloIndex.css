@@ -28,8 +28,12 @@
     margin-top: 10px;
     font-size: 13px;
     font-family: sans-serif;
-    color: grey;
+    color: rgb(107, 106, 106);
     font-weight: bold;
+}
+
+.link-menu{
+    color: #FF6600;
 }
 
 /*_______________________________________________*/
@@ -44,7 +48,8 @@
 .contenedor-ingresar span{
     margin-left: 5px;
     font-family: sans-serif;
-    color: rgb(163, 161, 161);
+    color: rgb(151, 149, 149);
+    font-weight: bold;
 }
 label{
     display: block;

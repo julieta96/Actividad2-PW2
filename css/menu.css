@@ -41,7 +41,11 @@
 .par{
 	background-color: #d5d5d5;
 }
-#titulo-pedido{
+
+.panel-titulo > img{
+	height: 15px;
+	width: 15px;
+}#titulo-pedido{
 
 	color:#FF6600;
 	font-family: 'Baloo Paaji 2', cursive;

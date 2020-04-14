@@ -45,7 +45,13 @@
 .panel-titulo > img{
 	height: 15px;
 	width: 15px;
-}#titulo-pedido{
+==== BASE ====
+}
+
+.panel-titulo.desplegado > img{
+	transform: rotate(90deg);
+}
+#titulo-pedido{
 
 	color:#FF6600;
 	font-family: 'Baloo Paaji 2', cursive;
@@ -291,4 +297,3 @@ z-index: 1;
 	margin-left: 760px;
 	bottom:-125px;	
 }
-

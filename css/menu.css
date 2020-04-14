@@ -7,6 +7,40 @@
 	font-family: 'Roboto', sans-serif;
 	font-size: 25px; 
 }
+.panel{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid gray;
+}
+
+.panel-titulo{
+	padding: 5px 5px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: #515050;
+	background-image: linear-gradient(white, #bebebe);
+}
+
+/*.panel-cuerpo {
+	padding: 5px;
+}*/
+#titulo-menu{
+	font-weight: bold;
+}
+
+#titulo-menu span {
+	font-weight: normal;
+}
+
+.descripcion-menu{
+	border-top: 1px solid gray;
+}
+.impar{
+	background-color: white;
+}
+.par{
+	background-color: #d5d5d5;
+}
 #titulo-pedido{
 
 	color:#FF6600;

@@ -52,3 +52,10 @@ label{
     width: 70%;
     display: block;
 }
+
+.boton-ingresar{
+    background:url(../img/boton.png);
+    width: 128px;
+    height: 45px;
+    border-style: none;
+}

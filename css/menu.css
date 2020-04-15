@@ -2,3 +2,252 @@
 	display: grid;
 	grid-template-columns: auto auto;
 }
+
+
+#titulo-pedido{
+
+	color:#FF6600;
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 25px;
+	position: absolute;
+	margin-left: 845px;
+	flex-wrap: nowrap;
+
+}
+
+#tabla-pedido{
+	height:165px;
+	width:304px;
+	background-color: white;
+	border:1px solid #cdcdcd;
+	position: absolute;
+	margin-left:845px;
+	bottom: 190px;
+}
+
+#header-pedido{
+	width: 304px;
+	height: 30px;
+	/*background: -webkit-linear-gradient(#FFFFFF, #E3E3E3,#FFFFFF);*//*dad8d8 *//*#cac8c8*//*e7e5e5*//*e1dfdf*/
+	background: -moz-linear-gradient(#FFFFFF , #cac8c8);
+	background: -webkit-linear-gradient(#FFFFFF, #cac8c8 ,#FFFFFF);
+	border:1px solid #cdcdcd;
+	position: absolute;
+	margin-left: 845px;
+	z-index: 1;
+	bottom: 325px;
+}
+
+#tabla-pedido2{
+	width: 304px;
+	height: 30px;
+	background-color: #E3E3E3;
+	position: absolute;
+	margin-left: 845px;
+	border-right:1px solid #cdcdcd;
+	border-left:1px solid #cdcdcd;
+	bottom: 294px;
+	border-bottom: 1px solid #cdcdcd;
+	z-index: 1;
+
+}
+
+#tabla-pedido3{
+	width: 304px;
+	height: 40px;
+	background-color: #E3E3E3;
+	position: absolute;
+	margin-left: 845px;
+	border-right:1px solid #cdcdcd;
+	border-left:1px solid #cdcdcd;
+	bottom: 254px;
+	z-index: 1;
+}
+
+
+#confirmar{
+	border-radius: 8px;
+	background: -webkit-linear-gradient(#FFFFFF, #E3E3E3);
+	background: -moz-linear-gradient(#FFFFFF, #E3E3E3 );
+	border:1px solid #cdcdcd;
+	padding: 5px; 
+	font-family: 'Arial';
+	font-weight: bold;
+	color:#5C5C5C;
+	width: 111px;
+	position: absolute;
+	margin-left: 208px;
+	z-index: 1;
+	bottom:258px;
+}
+
+#flecha{
+
+	color: black;
+	font-size: 7px;
+	height: 5px;
+	position: absolute;
+	margin-left: 307px;
+	z-index: 1;
+	bottom: 270px;	
+}
+
+label{
+	font-family: 'Arial';
+	font-size: 12px;
+	color:black;
+}
+
+#total{
+width: 50px;
+position: absolute;
+margin-left: 1093px;
+bottom: 300px;
+z-index: 1;
+}
+
+#abono{
+width: 50px;
+position: absolute;
+margin-left: 1093px;
+bottom: 270px;
+z-index: 1;
+}
+
+#mensaje1{
+	color:#FF6600;
+	font-family: 'Arial';
+	font-size:13px;
+	position: absolute;
+	margin-left: 860px;
+	bottom: 198px;
+	font-weight: thin;
+	z-index: 1;
+}
+
+#tl{
+
+	position: absolute;
+	margin-left: 1040px;
+	z-index: 1;
+	bottom: 302px;
+	color: #5c5c5c;
+
+}
+
+#ab{
+
+	position: absolute;
+	margin-left: 1008px;
+	bottom: 273px;
+	color: #5c5c5c;
+	z-index: 1;
+}
+
+.sugerencia{
+	position: absolute;
+	margin-left: 250px;
+	bottom: 2px;
+
+}
+
+#titulo-sugerencia{
+
+	color:#FF6600;
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	margin-left: 596px;
+	bottom: 130px;
+
+}
+
+.sushi-variedad1{
+	background-color: #373737;
+	width: 150px;
+	border-bottom:20px solid #373737;
+	border-left:2px solid #373737;
+	border-right:2px solid #373737;
+	border-top:2px solid #373737;
+	position: absolute;
+	margin-left: 600px;
+	bottom: 10px;
+}
+
+#sushi1{
+	height: 101px;
+}
+
+.sushi-variedad2{
+	background-color: #373737;
+	width: 150px;
+	border-bottom:20px solid #373737;
+	border-left:2px solid #373737;
+	border-right:2px solid #373737;
+	border-top:2px solid #373737;
+	position: absolute;
+	margin-left: 751px;
+	bottom: 10px;
+}
+
+.sushi-variedad3{
+	background-color: #373737;
+	width: 150px;
+	border-bottom:20px solid #373737;
+	border-left:2px solid #373737;
+	border-right:2px solid #373737;
+	border-top:2px solid #373737;
+	position: absolute;
+	margin-left: 600px;
+	bottom: -117px;
+}
+
+.sushi-variedad4{
+	background-color: #373737;
+	width: 150px;
+	border-bottom:20px solid #373737;
+	border-left:2px solid #373737;
+	border-right:2px solid #373737;
+	border-top:2px solid #373737;
+	position: absolute;
+	margin-left: 751px;
+	bottom: -117px;
+}
+
+.descripcionsushi{
+	font-family: 'Arial';
+	font-size: 13px;
+	color: red;
+	position: absolute;
+	margin-left: 20px;
+	color: white;
+	
+}
+
+#s1{
+	position: absolute;
+	margin-left: 610px;
+	bottom:2px; 
+}
+
+#s2{
+	position: absolute;
+	margin-left: 765px;
+	bottom:-3px;
+	font-size: 11px; 
+}
+
+#s3{
+	position: relative;
+	margin-left: 610px;
+	bottom:-155px;
+		
+}
+
+#s4{
+	position: relative;
+	margin-left: 760px;
+	bottom:-125px;	
+}
+

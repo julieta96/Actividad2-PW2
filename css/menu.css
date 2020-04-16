@@ -1,9 +1,106 @@
 .contenedor {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 50% auto;
+}
+.menu{
+	margin: 32px;
 }
 
 
+
+.titulo-seccion{
+	color:#FF6600;
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 25px;
+}
+.panel{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid gray;
+}
+
+.panel-titulo{
+	padding: 5px 5px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: #515050;
+	background-image: linear-gradient(white, #bebebe);
+}
+
+/*.panel-cuerpo {
+	padding: 5px;
+}*/
+#titulo-menu{
+	font-weight: bold;
+}
+
+#titulo-menu span {
+	font-weight: normal;
+}
+
+.descripcion-menu{
+	border-top: 1px solid gray;
+	width: auto;
+	height: auto;
+}
+
+.impar{
+	background-color: white;
+}
+.par{
+	background-color: #d5d5d5;
+}
+
+.panel-titulo > img{
+	height: 20px;
+	width: 22px;
+}
+
+.panel-titulo.desplegado > img{
+	transform: rotate(90deg);
+}
+.descripcion-menu{
+	display: flex;
+	flex-direction: row;
+}
+.seleccion-menu {
+	margin: auto;
+}
+.flecha-negra{
+	height: 18px;
+	width: 25px;
+}
+
+.flecha-naranja{
+	transform: rotate(-90deg);
+	height: 20px;
+	width: 16px;
+}
+
+.icono-datelle-menu {
+	width: 5%;
+	padding: 5px;
+	margin: auto;
+}
+.camara{
+	height: 20px;
+	width: 20px;
+}
+.precio{
+	padding: 10px;
+	margin: auto;
+}
+.texto-menu{
+	width: 85%;
+}
+
+.oscuro{
+	background-color: #b2b1b1;
+}
+
+/*.detalle-precio{
+	width: 10%;
+}*/
 #titulo-pedido{
 
 	color:#FF6600;
@@ -250,4 +347,3 @@ z-index: 1;
 	margin-left: 760px;
 	bottom:-125px;	
 }
-

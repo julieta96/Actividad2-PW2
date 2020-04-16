@@ -1,86 +1,53 @@
-#menu ul li{
-	display:inline;
-	text-decoration: none;
+*{
+	margin: 0;
+	padding: 0;
 }
 
 header{
-	background-color: #1E1E1E;
-	margin-left: -8px;
-	position: relative;
-	top: -20px;
-	width: 1280px;
-	padding-top: 30px;
+	background-color: #1e1e1e;
+	border-top: 5px solid #FF6600;
+}
+
+header img {
+	margin: 20px 0px 0px 20px;
+}
+
+.header-bienvenida {
+	float: right;
+	color: #bfbdbd;
+	margin-right: 50px;
+	margin-top: 8px;
+}
+
+.header-bienvenida a{
+	color: #FF6600;
 }
 
 #menu{
 	background-color: #FF6600;
-	margin-left:-8px;
-	width: 1280px;
-	position: relative;
-	top: -36px;
-	height: 30px;
 }
 
-#opciones li a{
+#menu ul {
+	margin-left: 30px;
+}
 
+#menu ul li{
+	display:inline-block;
+	text-decoration: none;
+	padding: 10px 0px;
+}
+
+#opciones li a {
 	color: white;
 	text-decoration: none;
-	margin-right: 10px;
 	font-family: 'Roboto', sans-serif;
-	position: relative;
-	bottom: -5px;
-	height: 30px;
-
-
-}
-
-
-#lineanaranja{
-
-	background-color: #FF6600;
-	position: relative;
-	bottom: 20px;
-	height: 15px;
-	width: 1280px;
-	margin-left: -8px;
-
+	padding: 10px;
 }
 
 .opcion:hover{
 	color: white;
 	background-color: black;
-	padding: 5px 5px 6px 5px; 
-
-}
-
-
-#descripcion{
-	font-family: 'Baloo Paaji 2', cursive;
-	color:grey;
-	position: absolute;
-	bottom: 545px;
-	right: 242px;
-    z-index:1; 
-}
-
-#mensajebienvenida{
-	color: grey;
-	font-family: 'Arial';
-	position: absolute;
-	bottom: 555px;
-	right:99px;
-	z-index: 1;
-	font-size: 12px;
-
-}
-
-#salir{
-	color:#FF6600;
-	font-family: 'Arial'; 
-	position: relative;
-	bottom: 0px;
-	right: -5px;
-	z-index: 1;
+	background-image: linear-gradient(gray, black);	
 }
 
 .activo{
@@ -88,11 +55,3 @@ header{
 	background-color: black;
 	padding: 5px 5px 6px 5px; 
 }
-
-/*#mensajecompleto{
-	position: absolute;
-	margin-right:-10px;
-	top:28px;
-	z-index: 1;
-}*/
-
